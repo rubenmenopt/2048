@@ -1,0 +1,53 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="2048.css">
+    <script src="2048.js"></script>
+    </head>
+    
+    <body>
+      <div class="game">
+        <div class="head">
+            <div class="logo"> <img src="Raven Blue.png" alt="" width="170" height="170" style="margin-left: -20vw; margin-top: 2vw;"></div>
+          <div class="a">2048 <button class="info" onClick='info()'>i</button> <button id="repeat" class="info repeat" onClick='reset()'>↻</button></div>
+          <div class="score">Score<br/><span id="value"></span></div>
+        </div>
+        <div class="description" id="description">
+        Como Jogar:<br/><br/>
+        Use as setas do teclado para mover os numeros. <br/>
+        Dois numeros com o mesmo valor em linha podem ser adicionadas. O objetivo é adicionar os numeros e obter a peça 2048.<br/><br/>
+        A pontuação é uma soma das peças adicionadas.<br><br/>
+        <span>______________________________________</span><br/><br/>
+        Trabalho de Clarissa Lana e Ruben Meno
+      </div>
+        <div class="field">
+          
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+          <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+        </div>
+        
+      </div>
+      <div class='' id='status'>
+      </div>
+    </body>
